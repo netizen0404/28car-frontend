@@ -1,0 +1,41 @@
+html {
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  html,
+  body,
+  #root {
+    height: 100%;
+    overflow-x: initial;
+  }
+  
+  .List {
+    border: 1px solid #d9dddd;
+    position: relative;
+    height: 595px;
+    overflow: auto;
+    direction: ltr;
+    border-radius: 5px;
+  }
+  
+  .ListItemEven,
+  .ListItemOdd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ListItemEven {
+    /* background-color: #f8f8f0; */
+    /* background-color: #ffffff; */
+  }
+
+  .flex{
+    display: flex;
+    height: 100%;
+  }

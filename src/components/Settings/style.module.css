@@ -1,0 +1,99 @@
+body{
+    font-size: 16px;
+}
+.settingContainer{
+    display:flex;
+}
+
+.settingButton{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.align{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.searchContainer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.container{
+    min-width: 150px;
+    height: 100vh;
+}
+.arrowIcon{
+    cursor: pointer;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+.accountContainer{
+    display: flex;
+}
+.accountContent{
+    flex: 1;
+}
+.setAccountContainer{
+    flex: 1;
+}
+.accountsList{
+    flex: 1;
+}
+.accountTitle{
+    font-size: 2rem;
+}
+.input{
+    width: 200px;
+}
+.accountListInner{
+    border: solid;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.setAccountContainer{
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        background-color: pink;
+        margin: -20px 0 0 -20px;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+    }
+    .setAccountContainer{
+        margin-left: 150px;
+    }
+    .input{
+        width: 170px;
+    }
+    .accountContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .accountsList{
+        margin-left: 150px;
+    }
+    img{
+        max-width: 40vw;
+        max-height: 20vh;
+    }
+    .searchContent{
+        margin-left: 150px;
+    }
+    .searchContainer{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+ }
